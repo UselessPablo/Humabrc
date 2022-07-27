@@ -1,5 +1,6 @@
 
 $primary: rgba(213, 194, 229, 0.5) ;
+$secondary: rgba(120, 91, 201, 0.5) ;
 $light:     rgba(196, 115, 221, 0.5);
 $border-radius: 1.375rem;
 $input-btn-font-family: 'maven pro';
@@ -12,6 +13,7 @@ $dropdown-color:rgba(196, 115, 221, 0.5);
 $font-family-base: 'maven pro';
 $body-bg: rgba(233, 166, 253, 0.959);
 $spacer: 0.8rem;
+$card-bg:rgba(246, 215, 255, 0.726);
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Maven+Pro:wght@400;500&family=Quicksand:wght@400;700&family=Roboto:wght@100&display=swap');
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import "_navbar.scss"
