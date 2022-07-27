@@ -9,7 +9,12 @@ img{
    
 }
 footer{
-    img{
-        max-width: 50px;
+        display: flex;
+        justify-content: center;
+        background-color: $bg-footer;
+    
+        img{
+        max-width: 40px;
+     
     }
 }
