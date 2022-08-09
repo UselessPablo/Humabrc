@@ -5,7 +5,9 @@ html {
 body {
   margin: 0.5rem; }
 
-h1, .h1, h5, .h5 {
+h1, .h1,
+h5,
+.h5 {
   padding-top: 1.3rem;
   margin-bottom: 1.3rem; }
 
@@ -19,10 +21,28 @@ footer {
   footer img {
     max-width: 40px; }
 
-p {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 1rem; }
+@media (min-width: 280px) {
+  p {
+    padding-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #031a33; } }
+
+@media (max-width: 461px) {
+  p {
+    font-size: 1.1rem;
+    color: #0d7074; } }
+
+a {
+  font-size: 1rem;
+  font-family: 'quicksand';
+  font-weight: 700; }
+
+.nav-link a {
+  font-size: 1rem;
+  font-family: 'quicksand';
+  font-weight: 700; }
 
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
@@ -156,7 +176,9 @@ h4, .h4 {
     h4, .h4 {
       font-size: 1.5rem; } }
 
-h5, .h5 {
+
+h5,
+.h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
@@ -2605,7 +2627,7 @@ textarea.form-control-lg {
   --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   --bs-dropdown-link-color: #212529;
   --bs-dropdown-link-hover-color: #1e2125;
-  --bs-dropdown-link-hover-bg: #e9ecef;
+  --bs-dropdown-link-hover-bg: rgba(125, 74, 141, 0.568);
   --bs-dropdown-link-active-color: #fff;
   --bs-dropdown-link-active-bg: rgba(213, 194, 229, 0.5);
   --bs-dropdown-link-disabled-color: #adb5bd;
@@ -3027,7 +3049,7 @@ textarea.form-control-lg {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 1rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-hover-color: #f4c5fd;
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 1rem;

@@ -1,32 +1,64 @@
-
 html {
     font-size: 82.5%;
 }
-body{
-  margin: 0.5rem;
+
+body {
+    margin: 0.5rem;
 }
 
-h1,h5 {
+h1,
+h5 {
     padding-top: 1.3rem;
     margin-bottom: 1.3rem;
 }
-img{
+
+
+img {
 
     padding-top: 30px;
-   
+
 }
-footer{
-        display: flex;
-        justify-content: center;
-        background-color: $bg-footer;
-    
-        img{
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: $bg-footer;
+
+    img {
         max-width: 40px;
-     
+
     }
 }
-p{
-    font-family: 'Roboto';
-    font-weight: 400;
+
+@media (min-width:280px) {
+    p {
+        padding-top: 20px;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: rgb(3, 26, 51);
+    }
+}
+
+@media (max-width:461px) {
+
+    p {
+
+        font-size: 1.1rem;
+        color: rgb(13, 112, 116);
+    }
+}
+
+a {
     font-size: 1rem;
+    font-family: 'quicksand';
+    font-weight: 700;
+}
+
+.nav-link {
+    a {
+        font-size: 1rem;
+        font-family: 'quicksand';
+        font-weight: 700;
+    }
 }
