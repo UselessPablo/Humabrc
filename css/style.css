@@ -8417,3 +8417,8 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 60%; }
