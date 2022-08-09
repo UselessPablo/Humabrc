@@ -32,7 +32,7 @@ footer {
 @media (max-width: 461px) {
   p {
     font-size: 1.1rem;
-    color: #0d7074; } }
+    color: black; } }
 
 a {
   font-size: 1rem;
@@ -43,6 +43,14 @@ a {
   font-size: 1rem;
   font-family: 'quicksand';
   font-weight: 700; }
+
+#galeria div {
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
+
+#galeria img {
+  max-width: 50%; }
 
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
@@ -8417,8 +8425,3 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
-
-.card-img,
-.card-img-top,
-.card-img-bottom {
-  width: 60%; }
