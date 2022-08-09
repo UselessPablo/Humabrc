@@ -72,3 +72,15 @@ a {
         max-width: 50%;    
     }
 }
+@media (min-width:989px) {
+    h1 {
+        display: none;
+    }
+}
+
+@media (max-width:990px) {
+
+    h1{
+        display: show;
+    }
+}

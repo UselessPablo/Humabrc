@@ -52,6 +52,14 @@ a {
 #galeria img {
   max-width: 50%; }
 
+@media (min-width: 989px) {
+  h1, .h1 {
+    display: none; } }
+
+@media (max-width: 990px) {
+  h1, .h1 {
+    display: show; } }
+
 /*!
    * Bootstrap  v5.2.0 (https://getbootstrap.com/)
    * Copyright 2011-2022 The Bootstrap Authors
