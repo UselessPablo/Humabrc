@@ -48,13 +48,14 @@ a {
   font-family: 'quicksand';
   font-weight: 700; }
 
-#galeria div {
+#galeria div, #galeriav div {
   align-content: center;
   justify-content: center;
   align-items: center; }
 
-#galeria img {
-  max-width: 50%; }
+#galeria img, #galeriav img {
+  max-width: 50%;
+  max-height: 50%; }
 
 @media (min-width: 989px) {
   h1, .h1 {

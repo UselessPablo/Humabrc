@@ -65,14 +65,15 @@ a {
         font-weight: 700;
     }
 }
-#galeria{
+#galeria, #galeriav{
     div{
         align-content: center;
         justify-content: center;
         align-items: center;
     }
     img{
-        max-width: 50%;    
+        max-width: 50%;   
+        max-height: 50%; 
     }
 }
 @media (min-width:989px) {
